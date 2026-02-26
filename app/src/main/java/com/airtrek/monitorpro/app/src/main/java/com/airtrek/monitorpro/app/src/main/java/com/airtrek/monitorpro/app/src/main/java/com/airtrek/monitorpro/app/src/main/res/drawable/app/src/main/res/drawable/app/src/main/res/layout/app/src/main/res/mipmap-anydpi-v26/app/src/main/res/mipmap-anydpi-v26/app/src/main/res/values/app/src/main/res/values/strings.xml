@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Airtrek Monitor PRO</string>
+    <string name="safe_mode_enabled">SAFE MODE: Только чтение (Mode 01/03/04)</string>
+    <string name="vehicle_details">Mitsubishi Airtrek 2001 • 4G64 GDI 2.4 • Full Time 4WD • AT</string>
+    <string name="param_count">MUT-II параметры: %1$d+</string>
+    <string name="engine_health">Здоровье двигателя: %1$d%%</string>
+    <string name="transmission_health">Здоровье АКПП: %1$d%%</string>
+    <string name="awd_health">Здоровье AWD: %1$d%%</string>
+    <string name="scan_status">Сканирование всех ECU (только чтение) завершено.</string>
+    <string name="clear_dtc_status">Команда Mode 04 отправлена: ошибки очищены.</string>
+</resources>
