@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#101418">
+
+    <TextView
+        android:id="@+id/safeModeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#6DFF9D"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/vehicleDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#D8E7FF"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/paramCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#9CC3FF"
+        android:layout_marginTop="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/scanButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SCAN ALL ECU" />
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CLEAR ERRORS" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/engineHealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/transmissionHealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/awdHealth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/warnings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF8080"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFE08A"
+        android:layout_marginTop="6dp" />
+
+    <ListView
+        android:id="@+id/parameterList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#26313F"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
